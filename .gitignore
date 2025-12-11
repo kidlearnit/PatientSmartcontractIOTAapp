@@ -1,0 +1,34 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+.turbo/
+.vercel/
+dist/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env & local config
+.env
+.env.*.local
+.env.local
+.DS_Store
+Thumbs.db
+
+# Editor / tooling
+.idea/
+.vscode/
+
+# IOTA Move build artifacts
+contract/patient/build/
+
+# Cursor/IDE metadata
+.cursor/
+
