@@ -76,6 +76,8 @@ export const TESTNET_PACKAGE_ID = "0x7d554224afc3ee774c7e6e8a755726e34d6f2b1444c
 ```
 The app also has a fallback `DEFAULT_PACKAGE_ID` inside `hooks/useContract.ts`—keep it in sync with your deployed package.
 
+<img width="1556" height="912" alt="image" src="https://github.com/user-attachments/assets/6ff6a259-6e64-4ef6-aebd-6789c6d9861f" />
+
 ## Smart Contract API
 - `create(patient_name, age, gender, diagnosis, medications, allergies, notes, doctor, visit_ts_ms, last_updated_ms, status, ctx)`
   - Creates and shares a `MedicalRecord`; owner = sender.
